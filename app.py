@@ -139,5 +139,5 @@ st.write('Vista rápida de la base principal')
 
 st.dataframe(
     df.head(20),
-    use_container_width=True
+    width='stretch'
 )
